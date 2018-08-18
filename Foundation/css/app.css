@@ -12,3 +12,12 @@
    margin-right: auto;
    max-width: initial;
 }
+
+
+.comentarios{
+  border: #cacaca solid 1px;
+  border-radius: 3px;
+  padding: 3%;
+}
+
+.contenedor
