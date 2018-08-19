@@ -9,58 +9,147 @@
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+      <link rel="stylesheet" href="css\styles.css">
   </head>
   <body>
     <header>
-    <div class="row black">
-      <div class="container">
-        <div class="col m4">
-          <img class="responsive-img" src="img/bqto.jpg">
-          <h1 class="white-text">Logo</h1>
-        </div>
-        <div class="col m8">
-          <div class="row">
-            <div class="col m3">
-              <a class="waves-effect waves-light btn blue darken-1 btn-small"><i class="material-icons left">cloud</i>Inicio</a>
-            </div>
-            <div class="col m3">
-              <a class="waves-effect waves-light btn blue darken-1 btn-small truncate"><i class="material-icons left">cloud</i>Recomendaciones</a>
-            </div>
-            <div class="col m3">
-              <a class="waves-effect waves-light btn blue darken-1 btn-small"><i class="material-icons left">cloud</i>Inicio</a>
-            </div>
-            <div class="col m3">
-              <a class="waves-effect waves-light btn blue darken-1 btn-small"><i class="material-icons left">cloud</i>Inicio</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+    <nav class="nav-material blue accent-2">
+       <div class="nav-wrapper">
+         <a href="#!" class="brand-logo"> <img src="img\bqto.jpg" class="nav-img" alt=""></a>
+         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href="#"><i class="fas fa-home"></i> Inicio</a></li>
+           <li><a href="#"><i class="fas fa-map-marker-alt"></i> Estuve en...</a></li>
+           <li><a href="#"><i class="fas fa-star"></i> Mejores viajes</a></li>
+           <li><a href="#"><i class="fas fa-check-circle"></i> Recomendaciones</a></li>
+
+         </ul>
+       </div>
+     </nav>
+       <ul class="sidenav" id="mobile-demo">
+
+
+
+
+
+       </ul>
     </header>
-    <section class=" green">
       <div class="container">
-        <div class="row ">
-          <div class="blue col m2">
-            aaa
+        <div class="row">
+          <h1>Creando mi propio camino</h1>
+          <div class="fixed-action-btn">
+          <a class="btn-floating btn-large blue accent-2">
+            <i class="fas fa-globe"></i>
+          </a>
+          <ul>
+            <li><a class="btn-floating red"><i class="fab fa-youtube"></i></a></li>
+            <li><a class="btn-floating teal darken-2"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="btn-floating blue"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="btn-floating indigo darken-3"><i class="fab fa-facebook-f"></i></a></li>
+          </ul>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col m4">
+
+            <div class="row">
+              <div class="col s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img\bqto.jpg">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img\bqto.jpg">
+
+                  </div>
+                </div>
+              </div>
+
+             </div>
+
           </div>
-          <div class=" blue col m3 offset-m1">
-            <img class="responsive-img" src="img/bqto.jpg">
-            <img class="responsive-img" src="img/bqto.jpg">
+          <div class="col m4">
+            <div class="row">
+              <div class="col s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img\bqto.jpg">
+
+                  </div>
+                </div>
+              </div>
+              </div>
           </div>
-          <div class=" blue col m3">
-            <img class="responsive-img" src="img/bqto.jpg">
-          </div>
-          <div class=" blue col m3">
-            <img class="responsive-img" src="img/bqto.jpg">
-            <img class="responsive-img" src="img/bqto.jpg">
-            <img class="responsive-img" src="img/bqto.jpg">
+          <div class="col m4">
+            <div class="row">
+              <div class="col s12">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img\bqto.jpg">
+
+                  </div>
+                </div>
+              </div>
+
+               <div class="col s12">
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="img\bqto.jpg">
+
+                   </div>
+                 </div>
+               </div>
+
+               <div class="col s12">
+                 <div class="card">
+                   <div class="card-image">
+                     <img src="img\bqto.jpg">
+
+                   </div>
+                 </div>
+               </div>
+
+
+             </div>
+
           </div>
         </div>
+
+
+        <div class="row">
+          <div class="col m8">
+
+          </div>
+          <div class="col m4">
+
+          </div>
+        </div>
+
       </div>
     </section>
 
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.fixed-action-btn');
+      var instances = M.FloatingActionButton.init(elems, {
+      direction: 'top'
+      });
+      });
+
+      $(document).ready(function(){
+         $('.sidenav').sidenav();
+       });
+    </script>
   </body>
 </html>
