@@ -1,4 +1,12 @@
 .nav-img {
-    height: 56px;
+    height: 80px;
     margin-left: 3%;
+}
+h1{
+  color: white;
+}
+
+
+body {
+   background-image: url("../img/bg.jpg");
 }
